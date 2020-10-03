@@ -44,7 +44,7 @@ public class DetailsFragment extends Fragment {
         dogName = view.findViewById(R.id.dog_name);
         DetailsFragmentArgs args = DetailsFragmentArgs.fromBundle(getArguments());
         DogBreed dogBreed = args.getDogObject();
-        Picasso.get().load(dogBreed.url).into(dogImage);
+        Picasso.get().load(dogBreed.url).placeholder(R.drawable.loading_image).into(dogImage);
         bredFor.setText(dogBreed.bredFor);
         bredGroup.setText(dogBreed.breedGroup);
         lifeSpan.setText(dogBreed.lifeSpan);

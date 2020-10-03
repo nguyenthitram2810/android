@@ -51,6 +51,10 @@ dependencies {
     implementation "androidx.recyclerview:recyclerview:1.1.0"
     //Picasso
     implementation 'com.squareup.picasso:picasso:2.71828'
+
+    implementation 'com.chauthai.swipereveallayout:swipe-reveal-layout:1.4.1'
+    implementation "androidx.viewpager2:viewpager2:1.0.0-alpha01"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 }
